@@ -19,7 +19,7 @@ let setRating = (rating) => {
 
 
 
-let result=``;
+let result='';
 movies.forEach((movie) =>{
 	result +=`<div class="col-md-4 mb-4">
 						<div class="card">
@@ -50,4 +50,5 @@ movies.forEach((movie) =>{
 					`;
 })
 cl(movies);
+
 movieContainer.innerHTML = result;
